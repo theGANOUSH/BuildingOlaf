@@ -3,7 +3,7 @@
 #
 #  untitled.py
 #  
-#  Copyright 2015  <pi@raspberrypi>
+#  Copyright 2015  <theGANOUSH@raspberrypi>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -22,8 +22,6 @@
 #  
 #  
 
-
-
 def main():
 	vol = raw_input("Input Total Volume\n")
 	x = raw_input("Input Ratio of small\n")
@@ -37,7 +35,6 @@ def main():
 	root = (int(vol) * pi) / sumOfRatios
 	
 	print("%.2f" % pow(root, (1.0/3.0)))
-	
 	
 	return 0
 
